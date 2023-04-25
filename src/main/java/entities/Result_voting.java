@@ -16,7 +16,7 @@ import lombok.Setter;
 @Table(name = "tblResult_Voting")
 @Getter
 @Setter
-public class Result_voting {
+public class Result_Voting {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

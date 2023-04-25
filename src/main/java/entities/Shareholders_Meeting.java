@@ -17,7 +17,7 @@ import lombok.Setter;
 @Table(name = "tblShareholders_Meeting")
 @Getter
 @Setter
-public class ShareholdersMeeting {
+public class Shareholders_Meeting {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
