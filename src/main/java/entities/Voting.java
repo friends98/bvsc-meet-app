@@ -1,6 +1,6 @@
 package entities;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,8 +32,8 @@ public class Voting {
     private String description;
 
     @Column(name = "created_time")
-    private Date created_time;
+    private Timestamp created_time;
 
     @Column(name = "modified_time")
-    private Date modified_time;
+    private Timestamp modified_time;
 }

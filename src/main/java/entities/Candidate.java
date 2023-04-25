@@ -1,12 +1,13 @@
 package entities;
 
+import java.sql.Timestamp;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.xml.crypto.Data;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -28,7 +29,7 @@ public class Candidate {
     private String fullname;
 
     @Column(name = "birthday")
-    private Data birthday;
+    private Timestamp birthday;
 
     @Column(name = "address")
     private String address;

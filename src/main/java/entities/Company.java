@@ -1,7 +1,7 @@
 package entities;
 
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,6 +18,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Company {
+    public Company(String id2) {
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
@@ -33,7 +35,7 @@ public class Company {
     @Column(name = "image_logo")
     private String image_logo;
     @Column(name = "founded_year")
-    private Date founded_year;
+    private Timestamp founded_year;
     
 
     

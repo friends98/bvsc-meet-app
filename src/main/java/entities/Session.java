@@ -1,6 +1,6 @@
 package entities;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -26,10 +26,10 @@ public class Session {
     private String id_user;
 
     @Column(name = "start_time")
-    private Date start_time;
+    private Timestamp start_time;
 
     @Column(name = "end_time")
-    private Date end_time;
+    private Timestamp end_time;
 
     @Column(name = "duration")
     private Integer duration;

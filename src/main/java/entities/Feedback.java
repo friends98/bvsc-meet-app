@@ -1,6 +1,7 @@
 package entities;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,6 +33,6 @@ public class Feedback {
     private Date created_time;
 
     @Column(name = "modified_time")
-    private Date modified_time;
+    private Timestamp modified_time;
     
 }

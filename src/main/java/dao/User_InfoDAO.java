@@ -10,4 +10,5 @@ public interface User_InfoDAO {
     public void addUser_Info(User_Info user_Info);
     public void updateUser_Info(User_Info user_Info);
     public void deleteUser_Info(User_Info user_Info);
+    
 }
